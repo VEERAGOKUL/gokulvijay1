@@ -1,10 +1,10 @@
+
 #include<stdio.h>
 int main()
 {
  float a;
- int b;
+ printf("enter the floating point number:");
  scanf("%f",&a);
- b=(int)(a+0.5);
- printf("%d",b+1);
+ printf("the round of floating point %f is %f",a,round(a));
  return 0;
-}
+ }
